@@ -1,0 +1,325 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Login Should Be Success",
+        "description": "",
+        "id": "super-admin-fitnessgram-application;login-should-be-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11014728000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the FitnessGram Application Login",
+            "match": {
+              "location": "AddDistrict.userNavigatesToTheFitnessGramApplicationLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 504998300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enter the valid \"Shrikant\" and \"Xelpmoc@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shrikant\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Xelpmoc@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "AddDistrict.userEnterTheValidAnd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1837290900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click On the Add district button",
+            "match": {
+              "location": "AddDistrict.clickOnTheAddDistrictButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Login Should Be Success",
+        "description": "",
+        "id": "super-admin-fitnessgram-application;login-should-be-success;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17653714200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the FitnessGram Application Login",
+            "match": {
+              "location": "AddDistrict.userNavigatesToTheFitnessGramApplicationLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 815853000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enter the valid \"stateadmin@gmail.com\" and \"Xelpmoc@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"stateadmin@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Xelpmoc@123\"",
+                  "offset": 48
+                }
+              ],
+              "location": "AddDistrict.userEnterTheValidAnd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[text()\u003d\u0027Add New District\u0027]\"}\n  (Session info: chrome\u003d124.0.6367.119)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027XHYD-VIJAY\u0027, ip: \u0027192.168.2.64\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002719.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\\Users\\xelpmoc\\AppData\\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a2656b55a305618b737214a12c3c71e1\n*** Element info: {Using\u003dxpath, value\u003d//p[text()\u003d\u0027Add New District\u0027]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Steps.AddDistrict.clickOnTheAddDistrictButton(AddDistrict.java:46)\r\n\tat ✽.Click On the Add district button(src\\test\\java\\Feature\\AddDistrict.feature:6)\r\n",
+              "duration": 10049510100,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Click On the Add district button",
+            "match": {
+              "location": "AddDistrict.clickOnTheAddDistrictButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Super Admin FitnessGram Application",
+    "description": "",
+    "id": "super-admin-fitnessgram-application",
+    "keyword": "Feature",
+    "uri": "src\\test\\java\\Feature\\AddDistrict.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login Should Be Success",
+        "description": "",
+        "id": "super-admin-fitnessgram-application;login-should-be-success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13451465400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the FitnessGram Application",
+            "match": {
+              "location": "LoginSteps.userNavigatesToTheFitnessGramApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235867400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enter the Username as \"Shrikant\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shrikant\"",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginSteps.userEnterTheUsernameAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189278500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enter Password as \"Xelpmoc@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Xelpmoc@123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginSteps.userEnterPasswordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93174200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enable the Check Box",
+            "match": {
+              "location": "LoginSteps.enableTheCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113857400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on the Login Button",
+            "match": {
+              "location": "LoginSteps.clickOnTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1811048500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Login Success",
+            "match": {
+              "location": "LoginSteps.userLoginSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Login Should not Be Success",
+        "description": "",
+        "id": "super-admin-fitnessgram-application;login-should-not-be-success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17416953100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User navigates to the FitnessGram Application",
+            "match": {
+              "location": "LoginSteps.userNavigatesToTheFitnessGramApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187027700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Enter the Username as \"Shriknt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shriknt\"",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginSteps.userEnterTheUsernameAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179349600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Enter Password as \"Xelpmo@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Xelpmo@123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginSteps.userEnterPasswordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59368600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enable the Check Box",
+            "match": {
+              "location": "LoginSteps.enableTheCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121937200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on the Login Button",
+            "match": {
+              "location": "LoginSteps.clickOnTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1128454900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Login Fail",
+            "match": {
+              "location": "LoginSteps.userLoginFail()"
+            },
+            "keyword": "But "
+          }
+        ]
+      }
+    ],
+    "name": "Super Admin FitnessGram Application",
+    "description": "",
+    "id": "super-admin-fitnessgram-application",
+    "keyword": "Feature",
+    "uri": "src\\test\\java\\Feature\\Login.feature",
+    "tags": []
+  }
+]
